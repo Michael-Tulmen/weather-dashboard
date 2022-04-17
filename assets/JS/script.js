@@ -66,7 +66,17 @@ function currentWeather(city){
         $(cityWind).html(windsmph + "MPH");
     })
 }
+//Get forecast
+function forecast(cityid){
+    var dayover=false;
+    var queryforcastURL="https://api.openweathermap.org/data/2.5/forecast?id="+cityid+"&appid="+APIKey;
+    $.ajax({
+        url:queryforcastURL,
+        method:"GET"
+    }).then(function(response){
+        for (i=0;i<5;i++){
 
+    })
 //css framework using tailwind
 tailwind.config = {
     theme: {
