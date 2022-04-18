@@ -38,7 +38,7 @@ SO THAT I can send money to family overseas
 **Technical Acceptance: 40%**
 
 - [x] Uses the OpenWeather API to retrieve weather data
-- [x] Uses localStorage to store persistent data 
+- [ ] Uses localStorage to store persistent data 
 
 
 **Deployment: 32%**
@@ -54,7 +54,7 @@ SO THAT I can send money to family overseas
 - [x] Application user interface style is clean and polished
 - [x] Application is responsive
 
-**Repository Quality: 10%**
+**Repository Quality: 13%**
 
 - [x] Repository has a unique name
 - [x] Repository follows best practices for file structure and naming conventions
@@ -65,7 +65,7 @@ SO THAT I can send money to family overseas
 
 ### **MOCK UP**
 
-![a mock-up of currex](./assets/images/mock-up.gif)
+![a mock-up of weathermain](./assets/images/mockup.png)
 
 ## Technologies
 
